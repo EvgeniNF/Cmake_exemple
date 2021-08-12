@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/sharedlib/sharedlib.hpp
+iostream
+-
+
+D:/C++/Cmake_Exemple/app/app.cpp
+sharedlib.hpp
+D:/C++/Cmake_Exemple/app/sharedlib.hpp
+
